@@ -1,0 +1,78 @@
+/* dark color rgba(14, 26, 43, 1) */
+/* light color rgba(51, 80, 110, 1) */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom,
+        rgba(26, 43, 66, .85),
+        rgba(40, 180, 133, .8)),
+        url(../assets/outdoor.jpg);
+    /* background-position: 0 -100px; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* color: white; */
+}
+
+.big-box {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.left-side {
+    background-color: aqua;
+}
+
+.right-side {
+    background: linear-gradient(to bottom, rgba(14, 26, 43, .8), rgba(51, 80, 110, .8));
+    padding: 0;
+}
+
+.choose-box {
+    width: 100%;
+}
+
+.choose-box h7 {
+    text-transform: uppercase;
+}
+
+.input-box {
+    margin: 30px 0 30px;
+    color: white;
+    font-size: 1.9rem;
+    padding: 0 30px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.us-icon {
+    margin-right: 10px;
+}
+
+.form-check {
+    margin-left: 30px;
+}
+
+.btn.btn-primary {
+    text-align: center;
+}
+
+input {
+    background-color: transparent !important;
+    color: white !important;
+}
+input:focus {
+    box-shadow: none !important;
+    border-bottom: 2px solid white !important;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
