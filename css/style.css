@@ -21,11 +21,32 @@ body {
 .big-box {
     border-radius: 10px;
     overflow: hidden;
-    margin-top: 100px;
+    margin-top: 160px;
 }
 
 .left-side {
     background: rgba(85, 200, 125, 0.9);
+    padding: 100px 70px;
+}
+
+.company-name {
+    color: white;
+    text-transform: uppercase;
+}
+
+.company-name span {
+    display: block;
+}
+
+#main {
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+#second {
+    font-weight: 100;
+    font-size: 1.2rem;
 }
 
 .right-side {
