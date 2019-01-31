@@ -62,7 +62,9 @@ body {
 }
 
 .btn.btn-primary {
-    text-align: center;
+    width: 90%;
+    margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 input {
