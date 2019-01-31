@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom,
+    background-image: linear-gradient(to right,
         rgba(26, 43, 66, .85),
         rgba(40, 180, 133, .8)),
         url(../assets/outdoor.jpg);
@@ -119,6 +119,21 @@ body {
 
 .final-btn {
     /* margin-left: 0; */
+}
+
+.service {
+    margin-top: 70px;
+}
+
+.service a {
+    display: block;
+    color: white;
+    margin: 5px;
+}
+
+.service a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(255, 255, 255, .6);
 }
 
 input {
