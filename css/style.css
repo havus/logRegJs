@@ -25,7 +25,7 @@ body {
 }
 
 .left-side {
-    background:  rgba(85, 200, 125, 0.9);
+    background: rgba(85, 200, 125, 0.9);
 }
 
 .right-side {
@@ -45,9 +45,11 @@ body {
     border: none;
     border-radius: 0;
 }
+
 .us-btn:focus {
     box-shadow: none !important;
 }
+
 .underline::after {
     content: '';
     position: absolute;
@@ -88,9 +90,14 @@ body {
 }
 
 .btn.btn-primary {
-    width: 90%;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    width: 81%;
+    margin-bottom: 50px !important;
+    margin-top: 10px !important;
+    margin: auto;
+}
+
+.final-btn {
+    /* margin-left: 0; */
 }
 
 input {
