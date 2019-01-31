@@ -25,7 +25,7 @@ body {
 }
 
 .left-side {
-    background-color: aqua;
+    background-color: rgba(92,197,158, .8);
 }
 
 .right-side {
@@ -35,14 +35,34 @@ body {
 
 .choose-box {
     width: 100%;
+    margin-bottom: 70px;
 }
 
-.choose-box h7 {
-    text-transform: uppercase;
+.us-btn {
+    height: 70px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
+.us-btn:focus {
+    box-shadow: none !important;
+}
+.underline::after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-top: -7px;
+    margin-left: 50%;
+}
+
+.choose-box h5 {
+    line-height: 70px;
 }
 
 .input-box {
-    margin: 30px 0 30px;
+    margin: 30px 0 0;
     color: white;
     font-size: 1.9rem;
     padding: 0 30px;
@@ -59,6 +79,11 @@ body {
 
 .form-check {
     margin-left: 30px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.remember-box {
+    margin-top: 50px;
 }
 
 .btn.btn-primary {
@@ -71,10 +96,12 @@ input {
     background-color: transparent !important;
     color: white !important;
 }
+
 input:focus {
     box-shadow: none !important;
     border-bottom: 2px solid white !important;
 }
+
 input::placeholder {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(255, 255, 255, .8) !important;
 }
