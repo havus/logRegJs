@@ -81,9 +81,11 @@ body {
     transition: all 1s;
 }
 
-.underline.kanan::after {
-    margin-left: 50%;
-}
+/* .underline::after {
+    content: '';
+    position: absolute;
+    margin-left: 50% !important;
+} */
 
 .choose-box h5 {
     line-height: 70px;
